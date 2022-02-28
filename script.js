@@ -5,6 +5,8 @@ function generiereZitate() {
         "Lippold Steve": "Wer sich im Genuss übt, übersättigt sein Verlangen nach Gierheit.",
         "Kühn-Görg Monika": "Unsere höchste Mission ist es, die Erde so zu gestalten, um sie für nächste Generationen zu erhalten.",
         "Ockenga Klaas": "Der Morgen danach ist die Zukunft von Gestern, die Realität von Heute und die Aufgabe für Morgen.",
+        "Vagianos Athanasios": "Es ist angemessen, dass sich die Gesellschaft auf den Optimismus stützt, der die Zukunft wohlwollend schmiert.",
+        "Seibold Klaus": "Es macht wenig Sinn, sich Sorgen über die Zukunft zu machen. Es gilt erstmal, den heutigen Tag zu überstehen.",
     }
 
     var autoren = Object.keys(zitate);
@@ -12,7 +14,7 @@ function generiereZitate() {
 
     var zitat = zitate[autor];
 
-    document.getElementById("loslos").innerHTML = zitat;
-    document.getElementById("zitatehier").innerHTML = autor;  
+    document.getElementById("zitate").innerHTML = zitat;
+    document.getElementById("autoren").innerHTML = autor;  
 }
 
